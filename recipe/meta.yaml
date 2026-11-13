@@ -1,4 +1,4 @@
-{% set version = "5.2.0" %}
+{% set version = "5.3.1" %}
 
 package:
   name: datasketches-cpp
@@ -6,7 +6,7 @@ package:
 
 source:
   url: https://github.com/apache/datasketches-cpp/archive/refs/tags/{{ version }}.tar.gz
-  sha256: 63e6bda660ee9730cc39746de87fd983118c28149e32ff9389fac98b27010a53
+  sha256: aff0b524eb0607bdd28102137fa3c701560faeb4654af4ba108a9f312dc4ffd3
 
 build:
   # this is a header only library
